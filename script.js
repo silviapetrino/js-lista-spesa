@@ -14,13 +14,16 @@ i = 0;
 //4. fino a che il contatore (0) è inferiore alla lista, esegui il ciclo while 
 
 while(i < myList.length) {
+
   const listElement = myList[i];
+
+  console.log(listElement);
 
   i++;
  
   //5.  se il contatore è uguale alla lunghezza della lista, stampala
 
-  if(i === myList.length) card.innerHTML = myList.join(', ').toUpperCase();
+  
 
 }
 
