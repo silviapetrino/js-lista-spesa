@@ -14,7 +14,7 @@ i = 0;
 
 //4. fino a che il contatore (0) è inferiore alla lista, esegui il ciclo while 
 
-while(i < myList.length) {
+while(i < myList.length - 1) {
   //5. incremento il contatore 
 
   i++;
@@ -30,9 +30,10 @@ while(i < myList.length) {
   card.append(listPrint);
   
  
-
-
 }
+
+
+
 
 
 
