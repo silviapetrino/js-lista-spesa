@@ -15,20 +15,20 @@ i = 0;
 //4. fino a che il contatore (0) è inferiore alla lista, esegui il ciclo while 
 
 while(i < myList.length - 1) {
-  //5. incremento il contatore 
-
-  i++;
-
-  // 6. creo l'elemento in cui stampare l'oggetto della lista 
+ 
+  // 5. creo l'elemento in cui stampare l'oggetto della lista 
 
   const listPrint = document.createElement("p");
   
-  //7. stampo l'oggetto in pagina 
+  //6. stampo l'oggetto in pagina 
 
   listPrint.innerHTML = myList[i];
 
   card.append(listPrint);
   
+  // 7. incremento il contatore 
+
+  i++;
  
 }
 
