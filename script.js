@@ -11,7 +11,6 @@ const myList = ["milk", "fruit", "bread", "fish", "potatos", "vegetables", "pop-
 
 i = 0;
 
-
 //4. fino a che il contatore (0) è inferiore alla lista, esegui il ciclo while 
 
 while(i < myList.length - 1) {
